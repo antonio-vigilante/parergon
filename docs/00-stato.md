@@ -42,7 +42,11 @@ Servono LuaJIT 2.1 (`luajit` nel PATH), Python 3 e, per epubcheck, Java.
 - ~~togliere dal Kindle i libri di prova~~: li ha tolti l'utente il 23/11/2026, con le loro
   cartelle `.sdr`. Si possono ricreare da `test/uscita/`;
 - provare un passo su più paragrafi in un altro libro (punto 5);
-- preparare la pubblicazione: repository, prima release, `parergon.koplugin` da scaricare.
+- ~~preparare la pubblicazione~~: il 23/11/2026 è stato pubblicato il repository
+  https://github.com/antonio-vigilante/parergon (ramo `main`, tag `v1.0.0`). I commit usano
+  l'indirizzo noreply di GitHub, impostato solo per questo repository. Il pacchetto si crea con
+  `python tools/pacchetto.py` in `dist/`. Per ogni nuova versione: aggiornare `version` in
+  `_meta.lua` e `CHANGELOG.md`, creare il tag `vX.Y.Z`, poi una release su GitHub con lo zip.
 
 1. ~~**Sotto-temi più leggibili**~~ — fatto il 23/11/2026: «arte greca» al posto di
    «arte-greca» (vedi `06-fase5.md`).

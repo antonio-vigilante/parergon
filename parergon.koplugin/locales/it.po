@@ -1,0 +1,472 @@
+# Parergon — traduzione italiana.
+# Per aggiornare l'elenco delle frasi: python tools/estrai_frasi.py
+# Per verificare che la traduzione sia completa: python tools/estrai_frasi.py --check
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: it\n"
+
+msgid "Parergon: write annotations into the book"
+msgstr "Parergon: scrivi le annotazioni nel libro"
+
+msgid "Parergon works only with EPUB books."
+msgstr "Parergon funziona solo con i libri EPUB."
+
+msgid "Automatic (same as KOReader)"
+msgstr "Automatica (come KOReader)"
+
+msgid "Analyze annotations (changes nothing)"
+msgstr "Analizza le annotazioni (non modifica nulla)"
+
+msgid "Language"
+msgstr "Lingua"
+
+msgid "entry not found: %s"
+msgstr "voce assente: %s"
+
+msgid "cannot decompress %s"
+msgstr "impossibile decomprimere %s"
+
+msgid "This KOReader version is not supported: version 2024.07 or later is required."
+msgstr "Questa versione di KOReader non è supportata: serve la 2024.07 o successiva."
+
+msgid "Cannot read the EPUB: %s"
+msgstr "Impossibile leggere l'EPUB: %s"
+
+msgid "Invalid EPUB: %s"
+msgstr "EPUB non valido: %s"
+
+msgid "Analyzing annotations…"
+msgstr "Analisi delle annotazioni in corso…"
+
+msgid "Unexpected error during the analysis:"
+msgstr "Errore imprevisto durante l'analisi:"
+
+msgid "Report saved to: %s"
+msgstr "Rapporto salvato in: %s"
+
+msgid "Parergon — annotation analysis"
+msgstr "Parergon — analisi delle annotazioni"
+
+msgid "invalid position"
+msgstr "indirizzo non valido"
+
+msgid "DocFragment[%d] does not match any file in the spine"
+msgstr "DocFragment[%d] non corrisponde a nessun file dello spine"
+
+msgid "file %s cannot be read or parsed"
+msgstr "il file %s è illeggibile o non analizzabile"
+
+msgid "Highlights analyzed: %d"
+msgstr "Sottolineature analizzate: %d"
+
+msgid "Certain matches: %d"
+msgstr "Corrispondenze certe: %d"
+
+msgid "Skipped: %d"
+msgstr "Saltate: %d"
+
+msgid "Book DOM version: %s · files in spine: %d · OPF: %s"
+msgstr "Versione DOM del libro: %s · file nello spine: %d · OPF: %s"
+
+msgid "Passage: «%s»"
+msgstr "Passo: «%s»"
+
+msgid "Note: %s"
+msgstr "Nota: %s"
+
+msgid "Style: %s"
+msgstr "Stile: %s"
+
+msgid "%s, line %d, %s"
+msgstr "%s, riga %d, %s"
+
+msgid "%d segment(s), bytes %d–%d · %s"
+msgstr "%d segmento/i, byte %d–%d · %s"
+
+msgid "SKIPPED: %s"
+msgstr "SALTATA: %s"
+
+msgid "file: %s"
+msgstr "file: %s"
+
+msgid "invalid position (%s)"
+msgstr "indirizzo non valido (%s)"
+
+msgid "spans more than one chapter (different files)"
+msgstr "attraversa più capitoli (file diversi)"
+
+msgid "spans more than one paragraph, and the paragraphs were not found"
+msgstr "attraversa più paragrafi, e i paragrafi non sono stati trovati"
+
+msgid "spans more than one paragraph, in an unexpected order"
+msgstr "attraversa più paragrafi, in un ordine inatteso"
+
+msgid "text not found in the paragraphs"
+msgstr "testo non trovato nei paragrafi"
+
+msgid "the text appears %d times in the paragraphs and the position is uncertain"
+msgstr "il testo compare %d volte nei paragrafi e la posizione è incerta"
+
+msgid "path, text confirmed across paragraphs"
+msgstr "percorso, testo confermato su più paragrafi"
+
+msgid "path, text confirmed across paragraphs and chosen by position"
+msgstr "percorso, testo confermato su più paragrafi e scelto per posizione"
+
+msgid "the highlighted text is empty"
+msgstr "il testo della sottolineatura è vuoto"
+
+msgid "the file has no <body>"
+msgstr "il file non ha un <body>"
+
+msgid "path, text confirmed"
+msgstr "percorso, testo confermato"
+
+msgid "path, text confirmed and chosen by position"
+msgstr "percorso, testo confermato e scelto per posizione"
+
+msgid "the text appears %d times in the paragraph and the position is uncertain"
+msgstr "il testo compare %d volte nel paragrafo e la posizione è incerta"
+
+msgid "search in the file (text not in the indicated paragraph)"
+msgstr "ricerca nel file (il testo non è nel paragrafo indicato)"
+
+msgid "search in the file (path not found)"
+msgstr "ricerca nel file (percorso non trovato)"
+
+msgid "unreliable path, and the text appears %d times in the chapter"
+msgstr "percorso non affidabile e testo presente %d volte nel capitolo"
+
+msgid "the highlighted text was edited in KOReader"
+msgstr "il testo della sottolineatura è stato modificato in KOReader"
+
+msgid "text not found in the paragraph"
+msgstr "testo non trovato nel paragrafo"
+
+msgid "path not found and text missing"
+msgstr "percorso non trovato e testo assente"
+
+msgid "META-INF/container.xml is missing (%s)"
+msgstr "manca META-INF/container.xml (%s)"
+
+msgid "container.xml cannot be read: %s"
+msgstr "container.xml illeggibile: %s"
+
+msgid "container.xml does not point to the OPF file"
+msgstr "container.xml non indica il file OPF"
+
+msgid "OPF file missing: %s (%s)"
+msgstr "file OPF mancante: %s (%s)"
+
+msgid "OPF file cannot be read: %s"
+msgstr "file OPF illeggibile: %s"
+
+msgid "the OPF file has no manifest"
+msgstr "il file OPF non ha un manifest"
+
+msgid "the OPF file has no spine"
+msgstr "il file OPF non ha uno spine"
+
+msgid "cannot open the file: %s"
+msgstr "impossibile aprire il file: %s"
+
+msgid "not a valid ZIP archive"
+msgstr "non è un archivio ZIP valido"
+
+msgid "ZIP64 archives are not supported"
+msgstr "gli archivi ZIP64 non sono supportati"
+
+msgid "the ZIP central directory cannot be read"
+msgstr "la directory centrale dello ZIP è illeggibile"
+
+msgid "the ZIP central directory is damaged"
+msgstr "la directory centrale dello ZIP è danneggiata"
+
+msgid "invalid ZIP local header"
+msgstr "intestazione locale dello ZIP non valida"
+
+msgid "truncated data"
+msgstr "dati troncati"
+
+msgid "compressed entry"
+msgstr "voce compressa"
+
+msgid "As in KOReader"
+msgstr "Come in KOReader"
+
+msgid "Highlight (background)"
+msgstr "Evidenziazione (sfondo)"
+
+msgid "Solid underline"
+msgstr "Sottolineatura continua"
+
+msgid "Dashed underline"
+msgstr "Sottolineatura tratteggiata"
+
+msgid "Wavy underline"
+msgstr "Sottolineatura a zigzag"
+
+msgid "Red"
+msgstr "Rosso"
+
+msgid "Orange"
+msgstr "Arancione"
+
+msgid "Yellow"
+msgstr "Giallo"
+
+msgid "Green"
+msgstr "Verde"
+
+msgid "Olive"
+msgstr "Oliva"
+
+msgid "Cyan"
+msgstr "Ciano"
+
+msgid "Blue"
+msgstr "Blu"
+
+msgid "Purple"
+msgstr "Viola"
+
+msgid "Gray"
+msgstr "Grigio"
+
+msgid "Use the general setting"
+msgstr "Usa l'impostazione generale"
+
+msgid "general setting"
+msgstr "impostazione generale"
+
+msgid "Keep KOReader colors"
+msgstr "Mantieni i colori di KOReader"
+
+msgid "Uniform gray (black and white screens)"
+msgstr "Grigio uniforme (schermi in bianco e nero)"
+
+msgid "Create consolidated copy…"
+msgstr "Crea la copia consolidata…"
+
+msgid "Highlight style: %s"
+msgstr "Stile delle evidenziazioni: %s"
+
+msgid "Style by color"
+msgstr "Stile per colore"
+
+msgid "Colors"
+msgstr "Colori"
+
+msgid "This book has no highlights to write into the text."
+msgstr "Questo libro non ha evidenziazioni da scrivere nel testo."
+
+msgid "annotated"
+msgstr "annotato"
+
+msgid "Parergon will create a new book:\n%s\n\nHighlights in this book: %d (with a note: %d).\nThe original book and its annotations will not be modified."
+msgstr "Parergon creerà un nuovo libro:\n%s\n\nEvidenziazioni in questo libro: %d (con una nota: %d).\nIl libro originale e le sue annotazioni non verranno modificati."
+
+msgid "Highlights in the text"
+msgstr "Evidenziazioni nel testo"
+
+msgid "Reader's notes"
+msgstr "Note del lettore"
+
+msgid "In the text, in brackets"
+msgstr "Nel testo, tra parentesi"
+
+msgid "Pop-up, with a reference [1]"
+msgstr "A comparsa, con richiamo [1]"
+
+msgid "Notes in italics"
+msgstr "Note in corsivo"
+
+msgid "Pop-up notes (with a page of reader's notes): %d"
+msgstr "Note a comparsa (con la pagina «Note del lettore»): %d"
+
+msgid "Pop-up note reference"
+msgstr "Richiamo delle note a comparsa"
+
+msgid "Superscript [1]"
+msgstr "In apice [1]"
+
+msgid "Your name, for the reading note"
+msgstr "Il tuo nome, per la nota di lettura"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Read and annotated by %s %s"
+msgstr "Letto e annotato da %s %s"
+
+msgid "Reading note on the title page"
+msgstr "Nota di lettura nel frontespizio"
+
+msgid "Change name"
+msgstr "Cambia nome"
+
+msgid "Personal index"
+msgstr "Indice personale"
+
+msgid "All"
+msgstr "Tutte"
+
+msgid "With a #theme"
+msgstr "Con un #tema"
+
+msgid "With a note"
+msgstr "Con una nota"
+
+msgid "Themes A–Z"
+msgstr "Temi dalla A alla Z"
+
+msgid "Themes in book order"
+msgstr "Temi nell'ordine del libro"
+
+msgid "Sub-themes in the table of contents"
+msgstr "Sotto-temi nell'indice del libro"
+
+msgid "Personal index: %d entries in %d groups"
+msgstr "Indice personale: %d voci in %d gruppi"
+
+msgid "Reading note: added to the title page"
+msgstr "Nota di lettura: aggiunta al frontespizio"
+
+msgid "Reading note: on a new page (title page not identified with certainty)"
+msgstr "Nota di lettura: in una pagina nuova (frontespizio non individuato con certezza)"
+
+msgid "Other annotations"
+msgstr "Altre annotazioni"
+
+msgid "Untitled chapter"
+msgstr "Capitolo senza titolo"
+
+msgid "On the line, larger [1]"
+msgstr "Sulla riga, più grande [1]"
+
+msgid "All annotations"
+msgstr "Tutte le annotazioni"
+
+msgid "Only with a note"
+msgstr "Solo quelle con una nota"
+
+msgid "Cancel"
+msgstr "Annulla"
+
+msgid "page bookmark: notes without a highlighted passage are not supported yet"
+msgstr "segnalibro di pagina: le note senza un passo sottolineato non sono ancora supportate"
+
+msgid "Notes written into the text: %d"
+msgstr "Note scritte nel testo: %d"
+
+msgid "Not included (no note): %d"
+msgstr "Non incluse (senza nota): %d"
+
+msgid "Create"
+msgstr "Crea"
+
+msgid "A consolidated copy already exists:\n\n%s\n\nReplace it?"
+msgstr "Esiste già una copia consolidata:\n\n%s\n\nVuoi sostituirla?"
+
+msgid "Replace"
+msgstr "Sostituisci"
+
+msgid "Copy: %s"
+msgstr "Copia: %s"
+
+msgid "Skipped highlights:"
+msgstr "Evidenziazioni saltate:"
+
+msgid "Creating the consolidated copy…"
+msgstr "Creazione della copia consolidata in corso…"
+
+msgid "The consolidated copy was not created:\n%s"
+msgstr "La copia consolidata non è stata creata:\n%s"
+
+msgid "Open the consolidated copy now?"
+msgstr "Vuoi aprire subito la copia consolidata?"
+
+msgid "Open"
+msgstr "Apri"
+
+msgid "Close"
+msgstr "Chiudi"
+
+msgid "Details"
+msgstr "Dettagli"
+
+msgid "Parergon — consolidated copy"
+msgstr "Parergon — copia consolidata"
+
+msgid "the mimetype file is not the first, uncompressed entry"
+msgstr "il file mimetype non è la prima voce non compressa"
+
+msgid "invalid mimetype content"
+msgstr "contenuto del mimetype non valido"
+
+msgid "unexpected number of entries: %d instead of %d"
+msgstr "numero di voci inatteso: %d invece di %d"
+
+msgid "the mimetype entry has an extra field"
+msgstr "la voce mimetype ha un extra field"
+
+msgid "wrong checksum for %s"
+msgstr "checksum errato per %s"
+
+msgid "the copy cannot have the same name as the original"
+msgstr "la copia non può avere lo stesso nome dell'originale"
+
+msgid "the file is encrypted"
+msgstr "il file è cifrato"
+
+msgid "the file could not be modified safely (%s)"
+msgstr "il file non si poteva modificare in modo sicuro (%s)"
+
+msgid "the OPF file could not be modified safely (%s)"
+msgstr "il file OPF non si poteva modificare in modo sicuro (%s)"
+
+msgid "the modified OPF file cannot be read back"
+msgstr "il file OPF modificato non si riesce a rileggere"
+
+msgid "cannot create the copy: %s"
+msgstr "impossibile creare la copia: %s"
+
+msgid "error while writing the copy: %s"
+msgstr "errore durante la scrittura della copia: %s"
+
+msgid "the copy failed verification: %s"
+msgstr "la copia non ha superato la verifica: %s"
+
+msgid "cannot rename the copy: %s"
+msgstr "impossibile rinominare la copia: %s"
+
+msgid "Highlights written into the copy: %d"
+msgstr "Evidenziazioni scritte nella copia: %d"
+
+msgid "This book is protected by DRM: Parergon cannot modify it."
+msgstr "Questo libro è protetto da DRM: Parergon non può modificarlo."
+
+msgid "the file has no <head> or <html> element"
+msgstr "il file non ha un elemento <head> o <html>"
+
+msgid "overlaps another highlight"
+msgstr "si sovrappone a un'altra evidenziazione"
+
+msgid "lies inside another highlight"
+msgstr "è contenuta in un'altra evidenziazione"
+
+msgid "Highlights inside another one (note and themes kept): %d"
+msgstr "Evidenziazioni contenute in un'altra (nota e temi conservati): %d"
+
+msgid "unbalanced tags"
+msgstr "tag non bilanciati"
+
+msgid "This book is already an annotated copy made by Parergon.\n\nTo update it, annotate the original book and create the copy again from the original: the new copy will replace this one."
+msgstr "Questo libro è già una copia annotata creata da Parergon.\n\nPer aggiornarla, annota il libro originale e crea di nuovo la copia a partire dall'originale: la nuova copia sostituirà questa."
+
+msgid "Continue anyway"
+msgstr "Continua comunque"
+
+msgid "Warning: the existing copy has %d annotations made directly on it. They are not part of the original and will not be kept in the new copy."
+msgstr "Attenzione: la copia esistente ha %d annotazioni fatte direttamente su di essa. Non fanno parte dell'originale e non verranno conservate nella nuova copia."

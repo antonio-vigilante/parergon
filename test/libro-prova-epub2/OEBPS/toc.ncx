@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="it">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:6f1c2a52-3c1e-4c8e-9a51-0c6b3f0a2026"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle><text>Libro di prova per Parergon</text></docTitle>
+  <navMap>
+    <navPoint id="np1" playOrder="1"><navLabel><text>Frontespizio</text></navLabel><content src="testo/frontespizio.xhtml"/></navPoint>
+    <navPoint id="np2" playOrder="2"><navLabel><text>Capitolo primo</text></navLabel><content src="testo/cap1.xhtml"/></navPoint>
+    <navPoint id="np3" playOrder="3"><navLabel><text>Capitolo secondo</text></navLabel><content src="testo/cap2.xhtml"/></navPoint>
+    <navPoint id="np4" playOrder="4"><navLabel><text>Campionario</text></navLabel><content src="testo/cap3.xhtml"/></navPoint>
+  </navMap>
+</ncx>

@@ -1,0 +1,625 @@
+# Parergon — modello delle traduzioni.
+# Generato da tools/estrai_frasi.py: non modificare a mano.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+#: main.lua:74
+msgid "Parergon: write annotations into the book"
+msgstr ""
+
+#: main.lua:82
+msgid "Parergon works only with EPUB books."
+msgstr ""
+
+#: main.lua:114
+msgid "As in KOReader"
+msgstr ""
+
+#: main.lua:115
+msgid "Highlight (background)"
+msgstr ""
+
+#: main.lua:116
+msgid "Solid underline"
+msgstr ""
+
+#: main.lua:117
+msgid "Dashed underline"
+msgstr ""
+
+#: main.lua:118
+msgid "Wavy underline"
+msgstr ""
+
+#: main.lua:125
+msgid "Red"
+msgstr ""
+
+#: main.lua:125
+msgid "Orange"
+msgstr ""
+
+#: main.lua:125
+msgid "Yellow"
+msgstr ""
+
+#: main.lua:125
+msgid "Green"
+msgstr ""
+
+#: main.lua:126
+msgid "Olive"
+msgstr ""
+
+#: main.lua:126
+msgid "Cyan"
+msgstr ""
+
+#: main.lua:126
+msgid "Blue"
+msgstr ""
+
+#: main.lua:126
+msgid "Purple"
+msgstr ""
+
+#: main.lua:126
+msgid "Gray"
+msgstr ""
+
+#: main.lua:139
+msgid "Use the general setting"
+msgstr ""
+
+#: main.lua:163
+msgid "general setting"
+msgstr ""
+
+#: main.lua:190
+msgid "Keep KOReader colors"
+msgstr ""
+
+#: main.lua:191
+msgid "Uniform gray (black and white screens)"
+msgstr ""
+
+#: main.lua:206
+msgid "On the line, larger [1]"
+msgstr ""
+
+#: main.lua:207
+msgid "Superscript [1]"
+msgstr ""
+
+#: main.lua:215
+msgid "Automatic (same as KOReader)"
+msgstr ""
+
+#: main.lua:245
+msgid "Create consolidated copy…"
+msgstr ""
+
+#: main.lua:250
+msgid "Analyze annotations (changes nothing)"
+msgstr ""
+
+#: main.lua:257
+msgid "Highlight style: %s"
+msgstr ""
+
+#: main.lua:262
+msgid "Style by color"
+msgstr ""
+
+#: main.lua:266
+msgid "Colors"
+msgstr ""
+
+#: main.lua:270
+msgid "Pop-up note reference"
+msgstr ""
+
+#: main.lua:275
+msgid "Language"
+msgstr ""
+
+#: main.lua:301 parergon/zip.lua:97
+msgid "entry not found: %s"
+msgstr ""
+
+#: main.lua:319
+msgid "cannot decompress %s"
+msgstr ""
+
+#: main.lua:370
+msgid "This KOReader version is not supported: version 2024.07 or later is required."
+msgstr ""
+
+#: main.lua:391
+msgid "Cannot read the EPUB: %s"
+msgstr ""
+
+#: main.lua:400
+msgid "Invalid EPUB: %s"
+msgstr ""
+
+#: main.lua:405
+msgid "Analyzing annotations…"
+msgstr ""
+
+#: main.lua:412
+msgid "Unexpected error during the analysis:"
+msgstr ""
+
+#: main.lua:415
+msgid "Report saved to: %s"
+msgstr ""
+
+#: main.lua:417
+msgid "Parergon — annotation analysis"
+msgstr ""
+
+#: main.lua:471
+msgid "This book has no highlights to write into the text."
+msgstr ""
+
+#: main.lua:476
+msgid "This book is already an annotated copy made by Parergon.\n\nTo update it, annotate the original book and create the copy again from the original: the new copy will replace this one."
+msgstr ""
+
+#: main.lua:477
+msgid "Continue anyway"
+msgstr ""
+
+#: main.lua:512
+msgid "Your name, for the reading note"
+msgstr ""
+
+#: main.lua:515 main.lua:536 main.lua:624
+msgid "Cancel"
+msgstr ""
+
+#: main.lua:516 main.lua:542
+msgid "OK"
+msgstr ""
+
+#: main.lua:530
+msgid "Read and annotated by %s %s"
+msgstr ""
+
+#: main.lua:533 main.lua:615
+msgid "Reading note on the title page"
+msgstr ""
+
+#: main.lua:537
+msgid "Change name"
+msgstr ""
+
+#: main.lua:559 main.lua:698
+msgid "annotated"
+msgstr ""
+
+#: main.lua:576
+msgid "Highlights in the text"
+msgstr ""
+
+#: main.lua:578 parergon/copia.lua:387 parergon/copia.lua:396
+msgid "Reader's notes"
+msgstr ""
+
+#: main.lua:584
+msgid "In the text, in brackets"
+msgstr ""
+
+#: main.lua:586
+msgid "Pop-up, with a reference [1]"
+msgstr ""
+
+#: main.lua:590
+msgid "Notes in italics"
+msgstr ""
+
+#: main.lua:595 parergon/copia.lua:362
+msgid "Personal index"
+msgstr ""
+
+#: main.lua:599
+msgid "All"
+msgstr ""
+
+#: main.lua:601
+msgid "With a #theme"
+msgstr ""
+
+#: main.lua:603
+msgid "With a note"
+msgstr ""
+
+#: main.lua:607
+msgid "Themes A–Z"
+msgstr ""
+
+#: main.lua:609
+msgid "Themes in book order"
+msgstr ""
+
+#: main.lua:612
+msgid "Sub-themes in the table of contents"
+msgstr ""
+
+#: main.lua:618
+msgid "All annotations"
+msgstr ""
+
+#: main.lua:620
+msgid "Only with a note"
+msgstr ""
+
+#: main.lua:625
+msgid "Create"
+msgstr ""
+
+#: main.lua:640
+msgid "Parergon will create a new book:\n%s\n\nHighlights in this book: %d (with a note: %d).\nThe original book and its annotations will not be modified."
+msgstr ""
+
+#: main.lua:653
+msgid "A consolidated copy already exists:\n\n%s\n\nReplace it?"
+msgstr ""
+
+#: main.lua:656
+msgid "Warning: the existing copy has %d annotations made directly on it. They are not part of the original and will not be kept in the new copy."
+msgstr ""
+
+#: main.lua:660
+msgid "Replace"
+msgstr ""
+
+#: main.lua:667
+msgid "Copy: %s"
+msgstr ""
+
+#: main.lua:670
+msgid "Skipped highlights:"
+msgstr ""
+
+#: main.lua:683
+msgid "Creating the consolidated copy…"
+msgstr ""
+
+#: main.lua:708
+msgid "The consolidated copy was not created:\n%s"
+msgstr ""
+
+#: main.lua:714
+msgid "Open the consolidated copy now?"
+msgstr ""
+
+#: main.lua:715
+msgid "Open"
+msgstr ""
+
+#: main.lua:716
+msgid "Close"
+msgstr ""
+
+#: main.lua:719
+msgid "Details"
+msgstr ""
+
+#: main.lua:721
+msgid "Parergon — consolidated copy"
+msgstr ""
+
+#: parergon/analisi.lua:66
+msgid "invalid position"
+msgstr ""
+
+#: parergon/analisi.lua:68
+msgid "DocFragment[%d] does not match any file in the spine"
+msgstr ""
+
+#: parergon/analisi.lua:72
+msgid "file %s cannot be read or parsed"
+msgstr ""
+
+#: parergon/analisi.lua:88
+msgid "Highlights analyzed: %d"
+msgstr ""
+
+#: parergon/analisi.lua:89
+msgid "Certain matches: %d"
+msgstr ""
+
+#: parergon/analisi.lua:90 parergon/copia.lua:586
+msgid "Skipped: %d"
+msgstr ""
+
+#: parergon/analisi.lua:91
+msgid "Book DOM version: %s · files in spine: %d · OPF: %s"
+msgstr ""
+
+#: parergon/analisi.lua:100
+msgid "Passage: «%s»"
+msgstr ""
+
+#: parergon/analisi.lua:103
+msgid "Note: %s"
+msgstr ""
+
+#: parergon/analisi.lua:105
+msgid "Style: %s"
+msgstr ""
+
+#: parergon/analisi.lua:107
+msgid "%s, line %d, %s"
+msgstr ""
+
+#: parergon/analisi.lua:108
+msgid "%d segment(s), bytes %d–%d · %s"
+msgstr ""
+
+#: parergon/analisi.lua:112
+msgid "SKIPPED: %s"
+msgstr ""
+
+#: parergon/analisi.lua:113
+msgid "file: %s"
+msgstr ""
+
+#: parergon/copia.lua:83
+msgid "the mimetype file is not the first, uncompressed entry"
+msgstr ""
+
+#: parergon/copia.lua:86
+msgid "invalid mimetype content"
+msgstr ""
+
+#: parergon/copia.lua:89
+msgid "unexpected number of entries: %d instead of %d"
+msgstr ""
+
+#: parergon/copia.lua:95
+msgid "the mimetype entry has an extra field"
+msgstr ""
+
+#: parergon/copia.lua:98
+msgid "wrong checksum for %s"
+msgstr ""
+
+#: parergon/copia.lua:130
+msgid "the copy cannot have the same name as the original"
+msgstr ""
+
+#: parergon/copia.lua:165
+msgid "page bookmark: notes without a highlighted passage are not supported yet"
+msgstr ""
+
+#: parergon/copia.lua:189
+msgid "the file is encrypted"
+msgstr ""
+
+#: parergon/copia.lua:337
+msgid "the file could not be modified safely (%s)"
+msgstr ""
+
+#: parergon/copia.lua:504
+msgid "the OPF file could not be modified safely (%s)"
+msgstr ""
+
+#: parergon/copia.lua:511
+msgid "the modified OPF file cannot be read back"
+msgstr ""
+
+#: parergon/copia.lua:516
+msgid "cannot create the copy: %s"
+msgstr ""
+
+#: parergon/copia.lua:542
+msgid "error while writing the copy: %s"
+msgstr ""
+
+#: parergon/copia.lua:548
+msgid "the copy failed verification: %s"
+msgstr ""
+
+#: parergon/copia.lua:560
+msgid "cannot rename the copy: %s"
+msgstr ""
+
+#: parergon/copia.lua:568
+msgid "Highlights written into the copy: %d"
+msgstr ""
+
+#: parergon/copia.lua:569
+msgid "Pop-up notes (with a page of reader's notes): %d"
+msgstr ""
+
+#: parergon/copia.lua:570
+msgid "Notes written into the text: %d"
+msgstr ""
+
+#: parergon/copia.lua:573
+msgid "Highlights inside another one (note and themes kept): %d"
+msgstr ""
+
+#: parergon/copia.lua:576
+msgid "Personal index: %d entries in %d groups"
+msgstr ""
+
+#: parergon/copia.lua:580
+msgid "Reading note: added to the title page"
+msgstr ""
+
+#: parergon/copia.lua:581
+msgid "Reading note: on a new page (title page not identified with certainty)"
+msgstr ""
+
+#: parergon/copia.lua:584
+msgid "Not included (no note): %d"
+msgstr ""
+
+#: parergon/corrisp.lua:229
+msgid "spans more than one paragraph, and the paragraphs were not found"
+msgstr ""
+
+#: parergon/corrisp.lua:233
+msgid "spans more than one paragraph, in an unexpected order"
+msgstr ""
+
+#: parergon/corrisp.lua:258 parergon/corrisp.lua:379
+msgid "text not found in the paragraph"
+msgstr ""
+
+#: parergon/corrisp.lua:270 parergon/corrisp.lua:377
+msgid "the highlighted text was edited in KOReader"
+msgstr ""
+
+#: parergon/corrisp.lua:272
+msgid "text not found in the paragraphs"
+msgstr ""
+
+#: parergon/corrisp.lua:277
+msgid "the text appears %d times in the paragraphs and the position is uncertain"
+msgstr ""
+
+#: parergon/corrisp.lua:279
+msgid "path, text confirmed across paragraphs"
+msgstr ""
+
+#: parergon/corrisp.lua:280
+msgid "path, text confirmed across paragraphs and chosen by position"
+msgstr ""
+
+#: parergon/corrisp.lua:303
+msgid "invalid position (%s)"
+msgstr ""
+
+#: parergon/corrisp.lua:306
+msgid "spans more than one chapter (different files)"
+msgstr ""
+
+#: parergon/corrisp.lua:312
+msgid "the highlighted text is empty"
+msgstr ""
+
+#: parergon/corrisp.lua:316
+msgid "the file has no <body>"
+msgstr ""
+
+#: parergon/corrisp.lua:343
+msgid "path, text confirmed"
+msgstr ""
+
+#: parergon/corrisp.lua:344
+msgid "path, text confirmed and chosen by position"
+msgstr ""
+
+#: parergon/corrisp.lua:347
+msgid "the text appears %d times in the paragraph and the position is uncertain"
+msgstr ""
+
+#: parergon/corrisp.lua:370
+msgid "search in the file (text not in the indicated paragraph)"
+msgstr ""
+
+#: parergon/corrisp.lua:371
+msgid "search in the file (path not found)"
+msgstr ""
+
+#: parergon/corrisp.lua:374
+msgid "unreliable path, and the text appears %d times in the chapter"
+msgstr ""
+
+#: parergon/corrisp.lua:379
+msgid "path not found and text missing"
+msgstr ""
+
+#: parergon/epub.lua:85
+msgid "META-INF/container.xml is missing (%s)"
+msgstr ""
+
+#: parergon/epub.lua:87
+msgid "container.xml cannot be read: %s"
+msgstr ""
+
+#: parergon/epub.lua:95
+msgid "container.xml does not point to the OPF file"
+msgstr ""
+
+#: parergon/epub.lua:99
+msgid "OPF file missing: %s (%s)"
+msgstr ""
+
+#: parergon/epub.lua:101
+msgid "OPF file cannot be read: %s"
+msgstr ""
+
+#: parergon/epub.lua:112
+msgid "the OPF file has no manifest"
+msgstr ""
+
+#: parergon/epub.lua:130
+msgid "the OPF file has no spine"
+msgstr ""
+
+#: parergon/indice.lua:142
+msgid "Other annotations"
+msgstr ""
+
+#: parergon/indice.lua:148
+msgid "Untitled chapter"
+msgstr ""
+
+#: parergon/pacchetto.lua:259
+msgid "This book is protected by DRM: Parergon cannot modify it."
+msgstr ""
+
+#: parergon/riscrivi.lua:151
+msgid "the file has no <head> or <html> element"
+msgstr ""
+
+#: parergon/riscrivi.lua:175
+msgid "lies inside another highlight"
+msgstr ""
+
+#: parergon/riscrivi.lua:179
+msgid "overlaps another highlight"
+msgstr ""
+
+#: parergon/riscrivi.lua:199
+msgid "unbalanced tags"
+msgstr ""
+
+#: parergon/zip.lua:38
+msgid "cannot open the file: %s"
+msgstr ""
+
+#: parergon/zip.lua:48
+msgid "not a valid ZIP archive"
+msgstr ""
+
+#: parergon/zip.lua:53
+msgid "ZIP64 archives are not supported"
+msgstr ""
+
+#: parergon/zip.lua:57
+msgid "the ZIP central directory cannot be read"
+msgstr ""
+
+#: parergon/zip.lua:61
+msgid "the ZIP central directory is damaged"
+msgstr ""
+
+#: parergon/zip.lua:84
+msgid "invalid ZIP local header"
+msgstr ""
+
+#: parergon/zip.lua:90
+msgid "truncated data"
+msgstr ""
+
+#: parergon/zip.lua:98
+msgid "compressed entry"
+msgstr ""

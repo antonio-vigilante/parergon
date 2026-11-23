@@ -1,0 +1,6 @@
+body { margin: 0 1em; font-family: serif; }
+h1, h2 { text-align: center; }
+p { text-indent: 1.2em; margin: 0; line-height: 1.4; }
+.frontespizio { text-align: center; margin-top: 30%; }
+.frontespizio p { text-indent: 0; }
+.epigrafe { font-style: italic; text-align: right; }

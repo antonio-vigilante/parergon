@@ -1,0 +1,10 @@
+# File generati dai test (python test/crea_epub.py ...)
+test/uscita/
+test/libro-prova.epub
+test/libro-prova-store.epub
+test/libro-prova-epub2.epub
+test/rapporto-prova.txt
+# Pacchetto della release (python tools/pacchetto.py)
+dist/
+__pycache__/
+*.pyc
